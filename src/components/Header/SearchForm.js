@@ -24,7 +24,7 @@ const SearchForm = () => {
 
   const handleSearchResult = (e) => {
     e.preventDefault();
-    navigate("/");
+    navigate("/food-recipe-app");
     startFetchMealsBySearch(dispatch, searchTerm);
   }
 
